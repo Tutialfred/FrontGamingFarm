@@ -47,9 +47,6 @@ function App() {
             <Route path="/myProfile/:id" component={UserProfile} />
             <Route path="/editProfile/:id" component={EditUserProfile} />
             <Route path="/editproduct/:id" component={ModifyProducts} />
-            {/* <Route path='/Footer' component={Footer} /> */}
-
-            {/* Admin */}
             <Route exact path="/admin" component={Sidebar} />
             <Route path="/admin/dashboard" component={Dashboard} />
             <Route path="/admin/products" component={Products} />
