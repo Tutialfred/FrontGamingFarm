@@ -1,0 +1,27 @@
+.divSearch{
+  /* background-color: rebeccapurple; */
+  position: relative;
+  left: 45%;
+  top: -40px;
+  
+}
+.botonBuscar{
+  color: rgb(255, 255, 255) !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+.botonBuscar:hover{
+  background-color: #7600FF !important;
+  transition: .5s linear;
+}
+
+.container-fluid{
+  margin-top: 6vh;
+}
+
+@media (max-width: 768px) {
+  .botonBuscar {
+    display: none !important;
+  }
+
+
+}

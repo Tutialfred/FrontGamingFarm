@@ -1,0 +1,186 @@
+.footer {
+
+  background-color: #000000;
+  color: white;
+  /* position: absolute; */
+  /* top: 250vh; */
+  width: 100vw;
+  padding: 20px 30px;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.titulo2 {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #858484;
+}
+
+.parrafo1 {
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #a7a9be;
+  text-align: center;
+  width: 50%;
+}
+.link1 {
+  color: #f1f1f1;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+.link1:hover {
+  color: #7600FF;
+}
+.conocenos {
+  margin-top: 40px;
+  text-align: center;
+}
+.fotoContacto {
+  margin-bottom: 10px;
+}
+.p1 {
+  position: relative;
+  right: -150px;
+}
+.p2 {
+  position: relative;
+  right: -67px;
+  display: block;
+}
+.p3 {
+  position: relative;
+  right: -120px;
+}
+.contenedores {
+  /* display: block; */
+  justify-content: space-between;
+  position: relative;
+  left: 100px;
+  margin-top: 40px;
+  text-align: center;
+}
+.footerFinal{
+  /* background-color: rgb(176, 40, 40); */
+  position: relative;
+  left: -290px;
+  /* bottom:  -3000px; */
+  /* top: 3670px; */
+  /* margin-top: 25px; */
+  /* padding-bottom: 15px  !important; */
+  /* width: s1000px; */
+  color: rgba(255, 255, 255, 0.479);
+  font-family: Arial, Helvetica, sans-serif;
+  /* width: 10px; */
+  top: -10px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 12px;
+}
+
+
+
+
+/*  TODO → TODO ESTO PERTENECE AL TAMAÑO PERSONALIZADO DEL CELULAR */
+/* Estilos para pantallas más pequeñas (hasta 414px) */
+@media (max-width: 414px) {
+  .footer{
+    /* background-color: red; */
+    height: 350px !important;
+  }
+
+  .link1 {
+    color: #f1f1f1;
+    text-decoration: none;
+    display: grid;
+    margin: 20px 0;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .link1:hover {
+    color: #7600FF;
+  }
+
+  .titulo2 {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #a0a0a0;
+    /* background-color: green; */
+    position: relative;
+    left: -200px !important;
+    top: -20px
+    
+  }
+  .compraS{
+    /* background-color: darkgreen; */
+    width: 230px;
+    padding: 0 !important;
+    margin: 0;
+    position: relative;
+    left: -45px !important;
+  }
+  .conocenosS{
+    /* background-color: #7600FF; */
+    position: relative;
+    left: 10px !important;
+  }
+  .conocenos {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #a7a9be;
+    text-align: center;
+    width: 50%;
+    background-color: transparent !important;
+    /* background-color: green; */
+    /* position: relative; */
+     
+  }
+  .contenedores{
+    background-color: transparent;
+    /* background-color: blue; */
+    position: relative;
+    left: 5px;
+    width: 100px;
+  }
+  .imagenLogito{
+    /* border: 6px solid turquoise; */
+    position: relative;
+    left: 125px;
+    top: 170px;
+    
+  }
+  .footerFinal{
+    /* background-color: rgb(176, 40, 40); */
+    position: relative;
+    left: -150px;
+    /* bottom:  -3000px; */
+    /* top: 3670px; */
+    /* margin-top: 25px; */
+    /* padding-bottom: 15px  !important; */
+    /* width: s1000px; */
+    color: rgba(255, 255, 255, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 340px;
+    top: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+
+}

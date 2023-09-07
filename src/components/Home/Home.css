@@ -1,0 +1,382 @@
+/* body {
+  position: relative;
+  padding-bottom: 7em;
+  min-height: 110vh;
+  overflow: scroll;
+} */
+
+.home-container {
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* filtros  */
+
+/* Filtro SORT */
+.filterSort {
+  width: 20% !important;
+  left: 0.1% !important;
+  position: relative;
+  padding: 0px 25px !important;
+  border: 1px solid #ffffff00 !important;
+  margin-top: 3px;
+  background-color: transparent !important;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 0px !important;
+  height: 40.4px;
+  top: -2.3px;
+  color: #fff !important;
+  text-align: center;
+  border-right: 3px solid rgb(255, 255, 255) !important;
+  transition: 0.5s !important;
+}
+
+.filterSort:focus {
+  background-color: rgb(255, 253, 253) !important;
+  color: rgb(3, 3, 3) !important;
+  transition: 0.5s linear;
+}
+.filterSort:hover {
+  background-color: rgb(251, 251, 251) !important;
+  color: #000 !important;
+  transition: 0.5s !important;
+  cursor: pointer !important;
+}
+
+/* Filtro Category */
+.filterCategory {
+  width: 20% !important;
+  left: 20.15% !important;
+  position: relative;
+  padding: 1px 25px !important;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  margin-top: -40px;
+  background-color: transparent !important;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 0px !important;
+  border-right: 3px solid rgb(255, 255, 255) !important;
+  height: 40.4px;
+  top: -2.6px;
+  color: #fff !important;
+  text-align: center;
+  transition: 0.5s !important;
+}
+
+.filterCategory:focus {
+  background-color: rgb(255, 253, 253) !important;
+  color: rgb(3, 3, 3) !important;
+  transition: 0.5s linear;
+}
+.filterCategory:hover {
+  background-color: rgb(251, 251, 251) !important;
+  color: #000 !important;
+
+  cursor: pointer;
+}
+/* Filtro Mark */
+
+.filterMark2 {
+  width: 20% !important;
+  left: 40.2% !important;
+  position: relative;
+  padding: 1px 25px !important;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  border-right: 3px solid rgb(255, 255, 255) !important;
+  margin-top: -9px;
+  background-color: transparent !important;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 0px !important;
+  height: 41px !important ;
+  top: 9.1px !important;
+  color: #fff !important;
+  transition: 0.5s !important;
+
+  /* background-color: red !important; */
+}
+.filterMark2:hover {
+  background-color: rgb(251, 251, 251) !important;
+  color: #000 !important;
+}
+.filterMark3 {
+  width: 20% !important;
+  left: 60.3% !important;
+  position: relative;
+  padding: 1px 25px !important;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  border-right: 3px solid rgb(255, 255, 255) !important;
+  margin-top: -9px;
+  background-color: transparent !important;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 0px !important;
+  height: 41px !important ;
+  top: 9.1px !important;
+  color: #fff !important;
+  transition: 0.5s !important;
+
+  /* background-color: red !important; */
+}
+.filterMark3:hover {
+  background-color: rgb(251, 251, 251) !important;
+  color: #000 !important;
+}
+/* .filterMark:focus {
+  background-color: rgb(0, 0, 0) !important;
+  color: aliceblue !important;
+  transition: 0.5s linear;
+} */
+
+/* Boton Reset  */
+
+.botonReset {
+  width: 19.5% !important;
+  left: 40.1% !important;
+  position: relative;
+  padding: 1px 25px !important;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  /* border-right: 3px solid rgb(255, 255, 255) !important; */
+  margin-top: -9.2px;
+  background-color: transparent !important;
+  font-family: proxima-nova, sans-serif;
+  border-radius: 0px !important;
+  height: 41px !important ;
+  top: -34.5px !important;
+  color: #fff !important;
+  transition: 0.5s !important;
+
+  /* background-color: red !important; */
+}
+.botonReset:hover {
+  background-color: rgb(251, 251, 251) !important;
+  color: #000 !important;
+}
+/* TODO EL DIV ENTERO ↑ */
+.filtros {
+  justify-content: start !important;
+  /* background-color: green  !important;  */
+  position: absolute !important;
+  margin-top: 35px !important;
+  position: absolute;
+  height: 2px;
+
+  top: 6px;
+  width: 150px;
+}
+
+/* BOTONES ADMINISTRADOR */
+
+/* .AdministradorB{
+  background-color: red;
+} */
+
+/* Agregar el comentario */
+.Review {
+  /* background-color: hsl(114, 87%, 50%); */
+  position: absolute;
+  left: 62%;
+  top: 535px;
+  /* border: 3px solid rgb(77, 226, 35); */
+}
+
+.tituloAgregar {
+  font-weight: 700;
+  font-family: proxima-nova, sans-serif;
+}
+
+.activarDesactivar {
+  background-color: red !important;
+  position: absolute;
+  left: 67%;
+  top: 122px;
+  height: 50px;
+  border-radius: 20px;
+  width: 177px;
+  font-weight: 700;
+}
+
+.inputComentario {
+  width: 400px;
+  position: relative;
+  top: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.estrellas {
+  position: relative;
+  top: 20px;
+  width: 30px;
+}
+
+.botonPublicar {
+  width: 100px;
+  position: relative;
+  top: 20px;
+
+  background-color: rgb(143, 84, 245);
+  font-size: 23px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid rgb(143, 84, 245);
+  height: 50px;
+  width: 125px;
+}
+
+.editarProducto {
+  background-color: rgb(213, 73, 209) !important;
+  position: absolute;
+  left: 80%;
+  top: 122px;
+  height: 50px;
+  width: 280px;
+  font-weight: 700;
+  border-radius: 20px;
+  /* border: 2px solid rgb(0, 44, 187); */
+}
+
+.cantidadAgregar {
+  /* background-color: rgb(44, 47, 241) !important; */
+  position: absolute;
+  left: 77.5%;
+  top: 337px;
+  width: 200px;
+  border-radius: 20px;
+}
+
+.comentarios {
+  /* background-color: rgba(91, 208, 2, 0.793); */
+  position: absolute;
+  left: 550px;
+  top: 850px;
+
+  /* margin-top: 250px; */
+}
+
+.inputNumero {
+  width: 76px;
+  /* background-color: rgb(54, 120, 251); */
+  /* padding: 14px; */
+  font-size: 21px;
+  border-radius: 4px;
+  /* text-align: center; */
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.agregarStock {
+  background-color: rgb(54, 120, 251);
+  position: relative;
+  top: 15px;
+  border-radius: 10px;
+  padding: 5px 5px;
+  width: 125px;
+}
+
+@media (max-width: 747px) {
+  .pagina {
+    margin-top: 87px;
+    background-color: #0f0e17;
+  }
+
+  .filtros {
+    justify-content: start !important;
+    /* background-color: green  !important;  */
+    position: absolute !important;
+    margin-top: 65px !important;
+    position: absolute;
+    height: 28px;
+
+    top: 6px;
+    width: 130px;
+  }
+
+  /* ! FILTER 1 */
+  .filterSort {
+    margin-left: 101px;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.21) !important;
+    background-color: black !important; /* Cambiar el fondo a negro */
+    font-family: proxima-nova, sans-serif;
+    color: #ffffff;
+    width: 88px !important;
+    text-align: center; /* Centrar el texto horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filterSort:focus {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.5s linear;
+    text-align: center; /* centrar el texto horizontalmente */
+  }
+
+  /* ! FILTER 2 */
+  .filterCategory {
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.21) !important;
+    background-color: rgb(0, 0, 0) !important;
+    font-family: proxima-nova, sans-serif;
+    width: 90px !important;
+    left: -6px !important;
+    color: #ffffff;
+    text-align: center; /* Centrar el texto horizontalmente en el elemento select */
+    border-radius: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .filterCategory:focus {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+    transition: 0.5s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .filterMark2 {
+    left: 200px !important;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.21) !important;
+    background-color: rgb(0, 0, 0) !important;
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-family: proxima-nova, sans-serif;
+    width: 88px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .filterMark3 {
+    left: 299px !important;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, 0) !important;
+    background-color: rgb(0, 0, 0) !important;
+    font-family: proxima-nova, sans-serif;
+    width: 88px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: auto;
+  }
+
+  .botonReset {
+    background-color: rgb(252, 252, 252) !important;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    width: 80px !important;
+    text-align: center !important;
+    left: 100px !important;
+    font-size: 16px !important;
+    height: 30px;
+    font-weight: 800;
+    line-height: center; /* igual a la altura del botón */
+    text-align: center;
+    margin-top: 44px;
+  }
+}

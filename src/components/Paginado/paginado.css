@@ -1,0 +1,35 @@
+.paginated-container{
+    /* background-color: red !important; */
+    position: relative;
+    top: 5px;
+    width: 100%;
+    left: 49.5%;
+    transform: translateX(-50%);
+    margin-bottom: 6vh;
+   
+    
+}
+.botons{
+    background-color: #0f0e17!important;
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+@media (max-width: 747px) {
+    .paginated-container{
+        
+        width: 100%;
+        left: 48%;
+        transform: translateX(-50%);
+        margin-bottom: 6vh;
+        top: 17px;
+       
+        
+    }
+}
