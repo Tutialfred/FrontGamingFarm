@@ -22,14 +22,14 @@ axios.defaults.baseURL = REACT_APP_DEPLOY || "http://localhost:3001"
 //! First version ↓
 // axios.defaults.baseURL = "https://back-endgamingfdeploy-production.up.railway.app/"
 //! Now, with Render.. ↓
-axios.defaults.baseURL = "https://gamingfarmservice.onrender.com"
+axios.defaults.baseURL = "https://back-endgamingfdeploy-production.up.railway.app/"
 
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Auth0Provider
         domain="thegamingfarm.us.auth0.com"
-        clientId="cPlOrIF4eQIxbk8cPW4NVxXCsOgHLrBn" 
+        clientId="cPlOrIF4eQIxbk8cPW4NVxXCsOgHLrBn"  
         redirectUri={window.location.origin} 
         useRefreshTokens={true}
         cacheLocation="localstorage"
