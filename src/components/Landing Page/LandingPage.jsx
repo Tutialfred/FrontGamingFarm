@@ -28,8 +28,8 @@ const LandingPage = () => {
 
           {/* <img  className="fuego" src={Fuego}  /> */}
           <NavLink to="/home" onClick=
-            {(e) => window.location.assign("https://deploy-front-gaming-farm.vercel.app/home")}>
-            {/* {(e) => window.location.assign("/home")}> */}
+            // {(e) => window.location.assign("https://deploy-front-gaming-farm.vercel.app/home")}>
+            {(e) => window.location.assign("/home")}> 
             <button class="cssbuttons-io">
               <span className="letrasss">
                 <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
